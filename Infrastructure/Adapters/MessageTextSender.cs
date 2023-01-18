@@ -4,5 +4,5 @@ namespace Infrastructure.Adapters;
 
 public class MessageTextSender
 {
-    WhatsApp
+    
 }
