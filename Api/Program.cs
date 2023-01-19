@@ -34,6 +34,8 @@ builder.Services.AddHealthChecks();
 
 builder.Services.AddLogging(loggingBuilder => loggingBuilder.AddSerilog(dispose: true));
 
+
+builder.Services.AddMessage();
 builder.Services.AddDomainServices();
 
 builder.Services.AddSwaggerGen(c =>
